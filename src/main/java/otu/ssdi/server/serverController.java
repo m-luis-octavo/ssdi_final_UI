@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 import javafx.scene.control.TextArea;
+import org.w3c.dom.ls.LSOutput;
 
 public class serverController{
 
@@ -26,11 +27,14 @@ public class serverController{
         private final Socket clientSock;
         private String textString;
 
+
+
         clientHandler(Socket socket){
             this.clientSock = socket;
         }
 
         public void run() {
+            System.out.println("client attempt run");
             BufferedReader inStream = null;
             try {
                 inStream = new BufferedReader(new InputStreamReader(clientSock.getInputStream()));

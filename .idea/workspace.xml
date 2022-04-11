@@ -9,24 +9,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/SampleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SampleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SampleTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SampleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/otu/ssdi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/client/clientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/otu/ssdi/client/clientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/client/clientFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/otu/ssdi/client/clientFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController$clientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController$clientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/server/serverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/otu/ssdi/server/serverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/server/serverFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/otu/ssdi/server/serverFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/server.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +48,13 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ssdi_final_project" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ssdi_final_project" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="zcustomrun" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -123,91 +111,119 @@
       <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\java\otu\ssdi\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.clientFX">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="otu.ssdi.Main" />
-      <module name="ssdi_final_project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="otu.ssdi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clientFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="otu.ssdi.client.clientFX" />
-      <module name="ssdi_final_project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="otu.ssdi.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="serverFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="otu.ssdi.server.serverFX" />
-      <module name="ssdi_final_project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="otu.ssdi.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ssdi_final_project [runServerClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ssdi_final_project [runclientFX]">
+    <configuration name="ssdi_final_project [cleanBuildPublish]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="runServerClient" />
+            <option value="cleanBuildPublish" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ssdi_final_project [run_server_then_client]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ssdi_final_project [run server and client]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="run_server_then_client" />
+            <option value="run" />
+            <option value="server" />
+            <option value="and" />
+            <option value="client" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ssdi_final_project [runEverything]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runEverything" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ssdi_final_project [runclientFX]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runclientFX" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ssdi_final_project [runserverFX]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runserverFX" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.ssdi_final_project [run server and client]" />
+      <item itemvalue="Gradle.ssdi_final_project [runclientFX]" />
+      <item itemvalue="Gradle.ssdi_final_project [runEverything]" />
+      <item itemvalue="Gradle.ssdi_final_project [runserverFX]" />
+      <item itemvalue="Gradle.ssdi_final_project [cleanBuildPublish]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.clientFX" />
-        <item itemvalue="Application.serverFX" />
-        <item itemvalue="Gradle.ssdi_final_project [runServerClient]" />
-        <item itemvalue="Gradle.ssdi_final_project [run_server_then_client]" />
+        <item itemvalue="Gradle.ssdi_final_project [cleanBuildPublish]" />
+        <item itemvalue="Gradle.ssdi_final_project [runserverFX]" />
+        <item itemvalue="Gradle.ssdi_final_project [runclientFX]" />
+        <item itemvalue="Gradle.ssdi_final_project [runEverything]" />
+        <item itemvalue="Gradle.ssdi_final_project [run server and client]" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +252,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="408" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649711868851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="408" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649711868851" />
     <state x="610" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1649708453668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,22 +272,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="263" key="FileChooserDialogImpl/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649703301989" />
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1649709165494">
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1649712451329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649709165494" />
-    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1649709165494">
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649712451329" />
+    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1649712451329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.center/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649709165494" />
-    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1649709165494">
+    <state width="1921" height="289" key="GridCell.Tab.0.center/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649712451329" />
+    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1649712451329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.left/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649709165494" />
-    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1649709165494">
+    <state width="1921" height="289" key="GridCell.Tab.0.left/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649712451329" />
+    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1649712451329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.right/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649709165494" />
+    <state width="1921" height="289" key="GridCell.Tab.0.right/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649712451329" />
     <state x="440" y="95" key="SettingsEditor" timestamp="1649703025909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
