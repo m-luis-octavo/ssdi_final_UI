@@ -23,4 +23,5 @@ javafx {
     version = '17.0.2'
 }
 
+
 mainClassName = 'otu.ssdi.Main'

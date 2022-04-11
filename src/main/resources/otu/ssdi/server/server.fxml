@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="otu.ssdi.server.serverController">
+   <padding> <Insets bottom="25" left="25" right="25" top="25" /></padding>
+   <TextArea fx:id="messageBox" editable="false" prefHeight="169.0" prefWidth="456.0" />
+   <Button onAction="#handle" text="Exit" />
+</VBox>
