@@ -13,11 +13,6 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-}
-
-
 javafx {
     modules = ['javafx.controls', 'javafx.fxml']
     version = '17.0.2'
