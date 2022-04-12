@@ -1,4 +1,4 @@
-package com.example.ssdi_final.server;
+package com.example.ssdi_final;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -9,19 +9,15 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.net.URL;
 
-public class serverFx extends Application {
+public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        //Parent root = FXMLLoader.load(getClass().getResource("server.fxml"));
-
-        URL url = new File("src/main/java/com/example/ssdi_final/server/server.fxml").toURI().toURL();
-        System.out.println(getClass().getResource("server.fxml")); // <- returns null, so we do ^
+        URL url = new File("src/main/java/com/example/ssdi_final/client.fxml").toURI().toURL();
         Parent root = FXMLLoader.load(url);
-        primaryStage.setTitle("Server");
+        primaryStage.setTitle("Client");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
-        System.out.println("sever up");
     }
 
 

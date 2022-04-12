@@ -1,4 +1,4 @@
-package com.example.ssdi_final.server;
+package com.example.ssdi_final;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

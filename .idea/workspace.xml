@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/serverFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/serverFx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssdi_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssdi_final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/clientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/clientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/server.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/serverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/serverFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +28,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="27hxuuHp954v4SXoVHQRyAaczjq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,23 +38,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com.example.ssdi_final.server" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/javafx-sdk-17.0.2/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.33333334" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final\src\main\resources\com.example.ssdi_final.server" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final\src\main\resources\com\example\ssdi_final\server" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final\src\main\resources" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final\src\main\resources\com\example\ssdi_final" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final\src\main\resources" />
+      <recent name="C:\Users\prega\Dropbox\Web Dev\spreadsheet\ssdi_final\src\main\java\com\example\ssdi_final" />
       <recent name="C:\Users\prega\Dropbox\Web Dev\spreadsheet\ssdi_final\src\main\java\com\example\ssdi_final\server" />
       <recent name="C:\Users\prega\Dropbox\Web Dev\spreadsheet\ssdi_final\src\main\java\com\example\ssdi_final\client" />
-      <recent name="C:\Users\prega\Dropbox\Web Dev\spreadsheet\ssdi_final\src\main\java\com\example\ssdi_final" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -66,15 +59,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.client.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.Main" />
+      <module name="ssdi_final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ssdi_final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.Main" />
+      <module name="ssdi_final" />
+      <option name="PROGRAM_PARAMETERS" value="-p C:\Users\prega\Downloads\javafx-sdk-17.0.2\lib --add-modules javafx.controls" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <module name="ssdi_final" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="serverFx" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.server.serverFx" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.serverFx" />
       <module name="ssdi_final" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,14 +97,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.serverFx" />
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.Main (1)" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="" />
@@ -105,50 +124,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649797135099">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649797135099" />
-    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1649796044413">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649796044413" />
-    <state x="591" y="293" key="FileChooserDialogImpl" timestamp="1649796514523">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="591" y="293" key="FileChooserDialogImpl/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649796514523" />
-    <state width="1921" height="407" key="GridCell.Tab.0.bottom" timestamp="1649797136944">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="407" key="GridCell.Tab.0.bottom/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649797136944" />
-    <state width="1921" height="407" key="GridCell.Tab.0.center" timestamp="1649797136943">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="407" key="GridCell.Tab.0.center/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649797136943" />
-    <state width="1921" height="407" key="GridCell.Tab.0.left" timestamp="1649797136943">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="407" key="GridCell.Tab.0.left/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649797136943" />
-    <state width="1921" height="407" key="GridCell.Tab.0.right" timestamp="1649797136944">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="407" key="GridCell.Tab.0.right/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649797136944" />
-    <state x="268" y="115" width="1206" height="849" key="SettingsEditor" timestamp="1649796527464">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="268" y="115" width="1206" height="849" key="SettingsEditor/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649796527464" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1649796492575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649796492575" />
   </component>
 </project>

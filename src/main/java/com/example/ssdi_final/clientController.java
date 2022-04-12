@@ -1,4 +1,4 @@
-package com.example.ssdi_final.client;
+package com.example.ssdi_final;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
