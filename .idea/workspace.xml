@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client/clientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/clientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/server.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/serverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server/serverFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverFx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="tons of bug fixing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1649786346000</updated>
     </task>
+    <task id="LOCAL-00001" summary="tons of bug fixing">
+      <created>1649802457066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649802457066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tons of bug fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="tons of bug fixing" />
   </component>
 </project>
