@@ -1,233 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e7e1fc-492e-406d-92b5-f9a3a43d4de1" name="Default Changelist" comment="">
+    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__eu_hansolo_tilesfx_11_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_synedra_validatorfx_0_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssdi_final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/client/clientController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/client/clientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/client/clientFX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController$clientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/otu/ssdi/server/serverFX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/ssdi_final_project-1.0-SNAPSHOT.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/ssdi_final_project-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/ssdi_final_project-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SampleTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/otu/ssdi/Main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/otu/ssdi/client/client.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/otu/ssdi/server/server.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/ssdi_final_project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/ssdi_final_project.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SampleTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/client/clientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/client/clientFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/server/serverController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/otu/ssdi/server/serverFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/otu/ssdi/Main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/otu/ssdi/client/client.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/otu/ssdi/server/server.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ssdi_final_project" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ssdi_final_project" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ssdi_final_project" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ssdi_final_project" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="zcustomrun" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ssdi_final_project" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="Class" />
-        <option value="JavaFXApplication" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="27fE80ufkuzeE40qdZTpFkBOGmK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27hxuuHp954v4SXoVHQRyAaczjq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/otu/ssdi/client" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="exceleditor.install" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\resources\otu\ssdi\client" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\resources" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\resources\otu\ssdi" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\resources\otu\ssdi\cient" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\resources\otu\ssdi\server" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\java\otu\ssdi\client" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\resources\otu\ssdi" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\resources" />
-      <recent name="C:\Users\samak\Desktop\labs\ssdi_final_project\src\main\java\otu\ssdi\resources" />
+      <recent name="C:\Users\prega\Dropbox\Web Dev\spreadsheet\ssdi_final\src\main\java\com\example\ssdi_final\server" />
+      <recent name="C:\Users\prega\Dropbox\Web Dev\spreadsheet\ssdi_final\src\main\java\com\example\ssdi_final\client" />
+      <recent name="C:\Users\prega\Dropbox\Web Dev\spreadsheet\ssdi_final\src\main\java\com\example\ssdi_final" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ssdi_final_project [runclientFX]">
-    <configuration name="ssdi_final_project [cleanBuildPublish]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="cleanBuildPublish" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.serverFx">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.HelloApplication" />
+      <module name="ssdi_final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ssdi_final_project [run server and client]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-            <option value="server" />
-            <option value="and" />
-            <option value="client" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.client.Main" />
+      <module name="ssdi_final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ssdi_final_project [runEverything]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runEverything" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ssdi_final_project [runclientFX]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runclientFX" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ssdi_final_project [runserverFX]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runserverFX" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="serverFx" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ssdi_final.server.serverFx" />
+      <module name="ssdi_final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.ssdi_final_project [run server and client]" />
-      <item itemvalue="Gradle.ssdi_final_project [runclientFX]" />
-      <item itemvalue="Gradle.ssdi_final_project [runEverything]" />
-      <item itemvalue="Gradle.ssdi_final_project [runserverFX]" />
-      <item itemvalue="Gradle.ssdi_final_project [cleanBuildPublish]" />
+      <item itemvalue="Application.serverFx" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.HelloApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.ssdi_final_project [cleanBuildPublish]" />
-        <item itemvalue="Gradle.ssdi_final_project [runserverFX]" />
-        <item itemvalue="Gradle.ssdi_final_project [runclientFX]" />
-        <item itemvalue="Gradle.ssdi_final_project [runEverything]" />
-        <item itemvalue="Gradle.ssdi_final_project [run server and client]" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9e7e1fc-492e-406d-92b5-f9a3a43d4de1" name="Default Changelist" comment="" />
-      <created>1649702576831</created>
+      <changelist id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="" />
+      <created>1649786346000</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649702576831</updated>
+      <updated>1649786346000</updated>
     </task>
     <servers />
   </component>
@@ -236,70 +201,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="408" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649711868851">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="408" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649711868851" />
-    <state x="610" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1649708453668">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="610" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649708453668" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1649708806707">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649708806707" />
-    <state x="679" y="148" key="#ssdi_final_project_[run]" timestamp="1649705279837">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="679" y="148" key="#ssdi_final_project_[run]/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649705279837" />
-    <state x="740" y="263" key="FileChooserDialogImpl" timestamp="1649703301989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="263" key="FileChooserDialogImpl/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649703301989" />
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1649724847559">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649724847559" />
-    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1649724847558">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.center/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649724847558" />
-    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1649724847558">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.left/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649724847558" />
-    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1649724847558">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.right/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649724847558" />
-    <state x="180" y="93" width="1394" height="799" key="SettingsEditor" timestamp="1649724940642">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="180" y="93" width="1394" height="799" key="SettingsEditor/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649724940642" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1649724300973">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649724300973" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1649708525404">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649708525404" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1649703048520">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649703048520" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1649707034194">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649707034194" />
   </component>
 </project>
