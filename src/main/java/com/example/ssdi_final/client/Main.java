@@ -6,11 +6,15 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.File;
+import java.net.URL;
+
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("client.fxml"));
+        URL url = new File("src/main/java/com/example/ssdi_final/client/client.fxml").toURI().toURL();
+        Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Client");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
