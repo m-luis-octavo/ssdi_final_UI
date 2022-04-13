@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="Fixed editable textarea to not be editable">
+    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="Started working on saving server messages to a log file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649820870021</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started working on saving server messages to a log file">
+      <created>1649825559149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649825559149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +199,7 @@
     <MESSAGE value="tons of bug fixing" />
     <MESSAGE value="Added QOL fixes (enter to send, clearing message box, fixing exit button)" />
     <MESSAGE value="Fixed editable textarea to not be editable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed editable textarea to not be editable" />
+    <MESSAGE value="Started working on saving server messages to a log file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working on saving server messages to a log file" />
   </component>
 </project>
