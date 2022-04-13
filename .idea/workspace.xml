@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="tons of bug fixing">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_12_2022_5_24_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_12_2022_5_24_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/clientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/clientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssdi_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssdi_final.iml" afterDir="false" />
+    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="Added QOL fixes (enter to send, clearing message box, fixing exit button)">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/client.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649802457066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added QOL fixes (enter to send, clearing message box, fixing exit button)">
+      <created>1649820493852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649820493852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tons of bug fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="tons of bug fixing" />
+    <MESSAGE value="Added QOL fixes (enter to send, clearing message box, fixing exit button)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added QOL fixes (enter to send, clearing message box, fixing exit button)" />
   </component>
 </project>

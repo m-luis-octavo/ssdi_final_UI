@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ssdi_final.clientController">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ssdi_final.clientController">
     <columnConstraints>
         <ColumnConstraints />
     </columnConstraints>
@@ -20,7 +20,7 @@
                 <Button fx:id="sendButton" layoutX="269.0" layoutY="169.0" mnemonicParsing="false" onAction="#handle" text="Send" />
                 <Button fx:id="exitButton" layoutX="273.0" layoutY="10.0" mnemonicParsing="false" onAction="#handle" text="Exit" />
             <Label fx:id="userNameLabel" layoutX="97.0" layoutY="14.0" text="no one" />
-            <TextArea fx:id="clientChatBox" layoutX="16.0" layoutY="44.0" prefHeight="114.0" prefWidth="296.0" />
+            <TextArea fx:id="clientChatBox" editable="false" layoutX="16.0" layoutY="44.0" prefHeight="114.0" prefWidth="296.0" />
             </children>
         </Pane>
     </children>
