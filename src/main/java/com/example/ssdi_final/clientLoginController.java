@@ -9,6 +9,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -38,6 +40,41 @@ public class clientLoginController extends Application {
     }
 
     public void initialize(){
+
+        username.setOnKeyPressed(new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent k) {
+                if (k.getCode().equals(KeyCode.ENTER)) {
+                    // get a handle to the stage
+
+                    String inputted_username = (username.getText());
+                    System.out.println(inputted_username);
+                    Stage stage = (Stage) logInButton.getScene().getWindow();
+
+                    stage.close();
+
+                    try {
+
+                        URL url = new File("src/main/java/com/example/ssdi_final/client.fxml").toURI().toURL();
+                        FXMLLoader fxmlLoader = new FXMLLoader(url);
+                        Parent root1 = (Parent) fxmlLoader.load();
+
+                        // sending the username that was inputted to the clientController
+                        clientController controller = fxmlLoader.<clientController>getController();
+                        controller.setUser(inputted_username);
+
+
+                        stage = new Stage();
+                        stage.setTitle("Chat Server");
+                        stage.setScene(new Scene(root1));
+                        stage.show();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        });
 
         logInButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
