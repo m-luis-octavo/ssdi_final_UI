@@ -9,8 +9,7 @@ import javafx.fxml.FXML;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.time.LocalDate;
-import java.time.ZoneId;
+import java.time.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,11 +33,13 @@ public class serverController{
 
     public void handleSaveLog(ActionEvent actionEvent) {
         System.out.println( "Save Log clicked");
-        String filename = "server_log_" + LocalDate.now(ZoneId.of("America/Toronto")).toString() + ".txt";
+        String filename = "server_log_" + Instant.now().toString();
+        filename = filename.replace('.', '_');
+        filename = filename.replace(':', '_');
+        filename = filename  + ".txt";
         try {
             PrintWriter outputStream = new PrintWriter(filename);
             outputStream.println(messageBox.getText());
-            System.out.println(messageBox.getText());
             outputStream.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
