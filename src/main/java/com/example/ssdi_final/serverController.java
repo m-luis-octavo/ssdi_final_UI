@@ -32,17 +32,19 @@ public class serverController{
         System.exit(0);
     }
 
-    /*public void savelogs(ActionEvent actionEvent) {
+    public void handleSaveLog(ActionEvent actionEvent) {
         System.out.println( "Save Log clicked");
         String filename = "server_log_" + LocalDate.now(ZoneId.of("America/Toronto")).toString() + ".txt";
         try {
             PrintWriter outputStream = new PrintWriter(filename);
             outputStream.println(messageBox.getText());
             System.out.println(messageBox.getText());
+            outputStream.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-    }*/
+
+    }
 
     public class clientHandler implements Runnable {
         private final Socket clientSock;
@@ -127,19 +129,7 @@ public class serverController{
 
 
     public void initialize(){
-            Savelog.setOnAction(new EventHandler<ActionEvent>() {
-                public void handle(ActionEvent t) {
-                    System.out.println("Save Log clicked");
-                    String filename = "server_log_" + LocalDate.now(ZoneId.of("America/Toronto")).toString() + ".txt";
-                    try {
-                        PrintWriter outputStream = new PrintWriter(filename);
-                        outputStream.println(messageBox.getText());
-                        System.out.println(messageBox.getText());
-                    } catch (FileNotFoundException e) {
-                        e.printStackTrace();
-                    }
-                }
-            });
+
 
         waitForClientThread.start();
 

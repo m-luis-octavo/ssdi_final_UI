@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="Fixed editable textarea to not be editable">
+    <list default="true" id="d4358c2f-6b4a-4d72-8afd-39494b2d67c8" name="Changes" comment="Added QOL fixes (enter to send, clearing message box, fixing exit button)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/server.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ssdi_final/serverController.java" afterDir="false" />
@@ -142,7 +142,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,17 +183,40 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tons of bug fixing" />
     <MESSAGE value="Added QOL fixes (enter to send, clearing message box, fixing exit button)" />
     <MESSAGE value="Fixed editable textarea to not be editable" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed editable textarea to not be editable" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1921" height="266" key="GridCell.Tab.0.bottom" timestamp="1649826176498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="266" key="GridCell.Tab.0.bottom/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649826176498" />
+    <state width="1921" height="266" key="GridCell.Tab.0.center" timestamp="1649826176498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="266" key="GridCell.Tab.0.center/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649826176498" />
+    <state width="1921" height="266" key="GridCell.Tab.0.left" timestamp="1649826176498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="266" key="GridCell.Tab.0.left/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649826176498" />
+    <state width="1921" height="266" key="GridCell.Tab.0.right" timestamp="1649826176498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="266" key="GridCell.Tab.0.right/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649826176498" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1649826009995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.179.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1649826009995" />
   </component>
 </project>
