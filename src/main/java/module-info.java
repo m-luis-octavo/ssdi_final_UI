@@ -9,7 +9,7 @@ module com.example.ssdi_final {
     //requires validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    // requires eu.hansolo.tilesfx;
+    //requires eu.hansolo.tilesfx;
 
     opens com.example.ssdi_final to javafx.fxml;
     exports com.example.ssdi_final;
