@@ -8,6 +8,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -56,7 +58,6 @@ public class clientController {
     };
 
 
-
     public void initialize(){
 
         listenForMessages.start();
@@ -83,6 +84,26 @@ public class clientController {
                 public void handle(ActionEvent t) {
                     System.out.println("send clicked");
                     outputToServer.println(userId + ": " + messageText.getText());
+                    messageText.clear();
+                }
+            });
+
+            messageText.setOnKeyPressed(new EventHandler<KeyEvent>() {
+                @Override
+                public void handle(KeyEvent k) {
+                    if (k.getCode().equals(KeyCode.ENTER)) {
+                        System.out.println("enter clicked");
+                        outputToServer.println(userId + ": " + messageText.getText());
+                        messageText.clear();
+                    }
+                }
+            });
+
+            exitButton.setOnAction(new EventHandler<ActionEvent>() {
+                public void handle(ActionEvent t) {
+                    System.out.println("exit clicked");
+                    outputToServer.println(userId + " disconnected." );
+                    System.exit(0);
                 }
             });
 
