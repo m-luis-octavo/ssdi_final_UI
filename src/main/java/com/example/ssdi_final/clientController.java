@@ -6,10 +6,11 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.io.PrintWriter;
+
+import java.io.*;
+import java.net.ServerSocket;
 import java.net.Socket;
 
 public class clientController {
@@ -17,6 +18,7 @@ public class clientController {
     @FXML Button sendButton, exitButton;
     @FXML TextField messageText, username;
     @FXML Label userNameLabel;
+    @FXML TextArea clientChatBox;
 
     String userId = "";
     public void setUser(String userId){
@@ -30,13 +32,41 @@ public class clientController {
         // outputToServer.println("From Client: " + messageText.getText());
     }
 
+    Thread listenForMessages = new Thread() {
+        public void run() {
+            BufferedReader inStream = null;
+
+            try {
+                Socket server_message_sock = new Socket("localhost", 8000);
+                inStream = new BufferedReader(new InputStreamReader(server_message_sock.getInputStream()));
+
+                String message;
+                while ((message = inStream.readLine()) != null) {
+                    System.out.println("Sent from server: " + message);
+                    clientChatBox.setText( clientChatBox.getText() + "\n"+ message);
+                    //clientChatBox.setText( clientChatBox.getText() + "\n"+ message);
+                    // messageBox.setText( messageBox.getText() + "\n"+ message);
+
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    };
+
+
+
     public void initialize(){
+
+        listenForMessages.start();
 
         // name is null if not in this
         Platform.runLater(() -> {
+
             userNameLabel.setText(userId);
             System.out.println("Client Controller Started");
-            System.out.println("name from login: " + this.userId);
+            System.out.println("name from login: " + userId);
 
             try {
                 Socket socket = new Socket("localhost", 8000);
@@ -57,7 +87,7 @@ public class clientController {
             });
 
         });
-    }
+    }}
 
-}
+
 

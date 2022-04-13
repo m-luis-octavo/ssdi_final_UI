@@ -7,13 +7,19 @@ import javafx.fxml.FXML;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
+
 import javafx.scene.control.TextArea;
 
 public class serverController{
 
     String textString = "";
+    List<clientHandler> clients = new ArrayList<>();
+
 
     @FXML
     TextArea messageBox;
@@ -39,6 +45,12 @@ public class serverController{
                 while ((message = inStream.readLine()) != null){
                     System.out.println( "Sent from client: " + message);
                     messageBox.setText( messageBox.getText() + "\n"+ message);
+
+                    // send message to all connected clients
+                    for (int i = 0; i < clients.size(); i++){
+                        PrintWriter outputToClient = new PrintWriter(clients.get(i).clientSock.getOutputStream(), true);
+                        outputToClient.println(message);
+                    }
 
                 }
             }
@@ -74,6 +86,11 @@ public class serverController{
                     Socket sock = serve.accept();
                     System.out.println("Client is connected " + sock.getInetAddress().getHostAddress()); //this will display the host address of client
                     clientHandler client = new clientHandler(sock);
+
+                    // add the client to the list of clients
+                    clients.add(client);
+
+
                     new Thread(client).start();
                 }
 
