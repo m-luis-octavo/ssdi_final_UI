@@ -1,0 +1,52 @@
+.message-box{
+    -fx-background-color:#40444b;
+    -fx-background-radius: 50;
+}
+
+.chat-box{
+    -text-area-background: #40444b;
+    -fx-background-color:#36393f;
+    -fx-background-radius: 0;
+}
+
+.app-box{
+    -fx-background-color:#36393f;
+    -fx-background-radius: 0;
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.send-button{
+    -fx-background-color: #97ffc5;
+    -fx-background-radius: 20;
+}
+
+.close-button{
+    -fx-background-color: #ff7272;
+    -fx-background-radius: 50;
+}
+
+.UIText{
+    -fx-text-fill: white;
+}
+
+/* Test TextArea */
+
+.text-area {
+    -fx-background-color: rgba(53,89,119,0.4);
+    -fx-background-radius: 20;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
