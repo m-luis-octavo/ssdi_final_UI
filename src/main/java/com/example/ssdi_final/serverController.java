@@ -1,18 +1,20 @@
 package com.example.ssdi_final;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 
 // import java.awt.*;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 
+import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 
 public class serverController{
@@ -23,10 +25,24 @@ public class serverController{
 
     @FXML
     TextArea messageBox;
+    @FXML
+    Button Savelog;
 
     public void handle(ActionEvent actionEvent) {
         System.exit(0);
     }
+
+    /*public void savelogs(ActionEvent actionEvent) {
+        System.out.println( "Save Log clicked");
+        String filename = "server_log_" + LocalDate.now(ZoneId.of("America/Toronto")).toString() + ".txt";
+        try {
+            PrintWriter outputStream = new PrintWriter(filename);
+            outputStream.println(messageBox.getText());
+            System.out.println(messageBox.getText());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }*/
 
     public class clientHandler implements Runnable {
         private final Socket clientSock;
@@ -111,6 +127,23 @@ public class serverController{
 
 
     public void initialize(){
+            Savelog.setOnAction(new EventHandler<ActionEvent>() {
+                public void handle(ActionEvent t) {
+                    System.out.println("Save Log clicked");
+                    String filename = "server_log_" + LocalDate.now(ZoneId.of("America/Toronto")).toString() + ".txt";
+                    try {
+                        PrintWriter outputStream = new PrintWriter(filename);
+                        outputStream.println(messageBox.getText());
+                        System.out.println(messageBox.getText());
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+
         waitForClientThread.start();
+
+
+
     }
 }
