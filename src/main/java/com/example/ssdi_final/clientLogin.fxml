@@ -4,14 +4,14 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ssdi_final.clientLoginController">
+<AnchorPane prefHeight="154.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ssdi_final.clientLoginController">
    <children>
-      <Button fx:id="logInButton" layoutX="229.0" layoutY="278.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="142.0" text="Log In" textFill="#994e75">
+      <Button fx:id="logInButton" layoutX="37.0" layoutY="77.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="195.0" text="Log In" textFill="#994e75">
          <font>
-            <Font name="HelveticaNeueforSAS" size="30.0" />
+            <Font name="HelveticaNeueforSAS" size="12.0" />
          </font>
       </Button>
-      <TextField fx:id="username" layoutX="146.0" layoutY="116.0" prefHeight="119.0" prefWidth="309.0" promptText="input username">
+      <TextField fx:id="username" layoutX="37.0" layoutY="14.0" prefHeight="25.0" prefWidth="195.0" promptText="input username">
          <font>
             <Font size="22.0" />
          </font>
