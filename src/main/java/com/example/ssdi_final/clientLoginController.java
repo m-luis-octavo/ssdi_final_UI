@@ -23,14 +23,12 @@ public class clientLoginController extends Application {
     @FXML
     Button logInButton;
 
-
-
     @Override
     public void start(Stage primaryStage) throws Exception{
         URL url = new File("src/main/java/com/example/ssdi_final/clientLogin.fxml").toURI().toURL();
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Client Login");
-        primaryStage.setScene(new Scene(root, 700, 475));
+        primaryStage.setScene(new Scene(root, 268, 154));
         primaryStage.show();
     }
 
